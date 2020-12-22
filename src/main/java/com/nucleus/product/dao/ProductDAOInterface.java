@@ -9,4 +9,10 @@ public interface ProductDAOInterface {
     List<Product> getProductList();
 
     Boolean createNewProduct(Product product);
+
+    public Product getProductById(String id);
+
+    public Product updateProduct(Product product);
+
+    public Boolean deleteProduct(String productId);
 }
